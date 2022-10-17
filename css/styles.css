@@ -2,6 +2,7 @@
     --color-brand: #2196F3;
     --color-section: #FFFFFF;
     --color-background: #2F303A;
+    --color-icon:#AFB1B8;
 }
 
 /* Header */
@@ -397,7 +398,10 @@ footer {
     width: 20px;
     height: 20px;
 }
-
+.test {
+    display: block;
+    text-align: center;
+}
 
 .customers {
     margin-bottom: 50px;
@@ -412,35 +416,35 @@ footer {
     align-items: center;
     gap: 30px;
 }
+.customers-icon {
+
+    width: 170px;
+    height: 92px;
+    margin-bottom: 0;
+}
+
 .customers-link {
     display: inline-block;
     justify-content: center;
     align-items: center;
-   
+    
+    fill: var(--color-icon);
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--color-icon);
     border-radius: 4px;
    
 }
-/* .customers-sublist {
 
-    margin-right: 30px;
-    display: block;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-bottom: 0;
-} */
-.customers-icon{
-    
-    width: 170px;
-    height: 92px;
-    margin-bottom: 0;
+.customers-link:hover, .customers-link:focus {
+    fill: var(--color-brand);
+    border: 1px solid var(--color-brand);
+
+
 }
 /* footer */
 .footer-hero {
+    
     padding: 60px 0;
 }
 
@@ -524,8 +528,6 @@ footer {
 .masengers {
     display: block;
     padding: 0 0 0 70px;
-    
-
 }
 .masengers-list {
     display: flex;
@@ -535,30 +537,21 @@ footer {
     
 }
 
-
-/* .masengers-icon {
-    background-color: rgba(255, 255, 255, 0.1);
-    fill: var(--color-section);
-    margin-right: 10px;
-    border-radius:50%;
-    width: 44px;
-    height: 44px;
-   
-}
-.masengers-icon:hover, .masengers-icon:focus {
-    background-color: var(--color-brand);
-    fill: var(--color-section) ;
-} */
 .masenger-link {
     display: inline-block;
     align-items: center;
     justify-content: center;
     width: 44px;
     height: 44px;
-    fill: var(--color-brand);
-    background-color: rgba(255, 255, 255, 0.1);;
+    fill: var(--color-section);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     }
+
+.masenger-link:hover, .masenger-link.list:focus {
+    background-color: var(--color-brand);
+        
+}
 
 /* PORTFOLIO */
 /* main */
