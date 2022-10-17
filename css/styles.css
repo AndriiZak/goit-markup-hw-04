@@ -352,6 +352,7 @@ footer {
 }
 
 .our-workers-text {
+    margin-bottom: 16px;
 
     font-size: 16px;
     line-height: 1.18;
@@ -371,6 +372,32 @@ footer {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     flex-basis: calc((100%-90px)/4) background-color: var(--color-section);
 }
+.main-masengers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-masengers-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: #AFB1B8; 
+    border-radius: 50%;
+}
+
+.main-masengers-icon:hover, .main-masengers-icon:focus {
+    fill: var(--color-section);
+    background-color: var(--color-brand);
+}
+.main-masengers-icon{
+    width: 20px;
+    height: 20px;
+}
+
 
 .customers {
     margin-bottom: 50px;
