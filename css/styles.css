@@ -98,23 +98,6 @@ img {
 }
 
 
-.header-email::before{
-    
-    width: 16px;
-    height: 12px;
-    background-image: url("../images/symbol-defs.svg#icon-smartphone-header")  ;
-    content: "";
-}
-
-
-.header-tel::before {
-    content:"";
-    width: 16px;
-    height: 12px;
-    background-image: url("../images/symbol-defs.svg#icon-envelope-header");
-    
-}
-
 .carent-link {
     color: var(--color-brand);
     text-decoration: none;
@@ -122,6 +105,30 @@ img {
     line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.02em;
+}
+
+.header-tel{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    fill: #757575;
+}
+
+.header-tel:hover , .header-tel:focus {
+    fill: var(--color-brand);
+}
+
+.header-email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    fill: #757575;
+}
+
+.header-email:hover, .header-email:focus {
+    fill: var(--color-brand);
 }
 
 .header-studio:hover,
@@ -549,6 +556,15 @@ footer {
 .masenger-link:hover, .masenger-link.list:focus {
     background-color: var(--color-brand);
         
+}
+.masengers-li {
+    width: 44px;
+    height: 44px;
+}
+
+.customers-li {
+    width: 170px;
+    height: 92px;
 }
 
 /* PORTFOLIO */
