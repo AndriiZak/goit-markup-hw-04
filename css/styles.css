@@ -3,6 +3,7 @@
     --color-section: #FFFFFF;
     --color-background: #2F303A;
     --color-icon:#AFB1B8;
+    --color-text-grey:#757575;
 }
 
 /* Header */
@@ -241,6 +242,7 @@ footer {
     background-color: var(--color-brand);
     cursor: pointer;
     font-size: 16px;
+    letter-spacing: 0.06em;
     line-height: 1.87;
     font-family: inherit;
     border-radius: 4px;
@@ -277,6 +279,7 @@ footer {
 }
 
 .our-advantages-text {
+    color: var(--color-text-grey);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -342,7 +345,6 @@ footer {
 }
 
 .our-team {
-    padding: 30px 0;
     background-color: #F5F4FA;
 
 }
@@ -365,6 +367,7 @@ footer {
 .our-workers-text {
     margin-bottom: 16px;
 
+    color: var(--color-text-grey);
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -403,7 +406,7 @@ footer {
     border-radius: 50%;;
 }
 
-.main-masenger-link:hover, .main-masengers-icon:focus {
+.main-masenger-link:hover, .main-masenger-link:focus {
     fill: var(--color-section);
     background-color: var(--color-brand);
 }
@@ -553,7 +556,7 @@ footer {
     border-radius: 50%;
     }
 
-.masenger-link:hover, .masenger-link.list:focus {
+.masenger-link:hover, .masenger-link:focus {
     background-color: var(--color-brand);
         
 }
